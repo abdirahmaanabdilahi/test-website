@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Palace | Luxury Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">GRAND<span>PALACE</span></a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#booking" class="btn nav-btn">Book Now</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO GRAND PALACE</p>
+            <h1>Experience Luxury.<br>Enjoy Your Stay.</h1>
+            <p class="hero-text">
+                Discover comfort, elegance and unforgettable
+                moments at our luxury hotel.
+            </p>
+            <a href="#rooms" class="btn">Explore Rooms</a>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <form action="#contact">
+            <div class="booking-field">
+                <label for="checkin">Check In</label>
+                <input type="date" id="checkin" required>
+            </div>
+
+            <div class="booking-field">
+                <label for="checkout">Check Out</label>
+                <input type="date" id="checkout" required>
+            </div>
+
+            <div class="booking-field">
+                <label for="guests">Guests</label>
+                <select id="guests">
+                    <option>1 Guest</option>
+                    <option selected>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Check Availability</button>
+        </form>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="about-image"></div>
+
+        <div class="about-content">
+            <p class="subtitle">ABOUT OUR HOTEL</p>
+            <h2>A Perfect Place to Relax & Enjoy</h2>
+            <p>
+                Welcome to Grand Palace, where exceptional hospitality
+                meets modern comfort. Enjoy beautifully designed rooms,
+                delicious dining and outstanding service.
+            </p>
+            <p>
+                Whether you are traveling for business or pleasure,
+                we make every moment of your stay special.
+            </p>
+            <a href="#services" class="btn">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Rooms -->
+    <section class="rooms section" id="rooms">
+        <div class="section-heading">
+            <p class="subtitle">OUR ACCOMMODATION</p>
+            <h2>Rooms & Suites</h2>
+            <p>Find the perfect room for your next stay.</p>
+        </div>
+
+        <div class="room-grid">
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=85"
+                     alt="Deluxe hotel room">
+                <div class="room-info">
+                    <h3>Deluxe Room</h3>
+                    <p>Comfortable room with elegant interiors.</p>
+                    <div class="room-bottom">
+                        <span><strong>$80</strong> / night</span>
+                        <a href="#contact">Book Now →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=85"
+                     alt="Luxury suite">
+                <div class="room-info">
+                    <h3>Luxury Suite</h3>
+                    <p>Extra space, premium comfort and style.</p>
+                    <div class="room-bottom">
+                        <span><strong>$150</strong> / night</span>
+                        <a href="#contact">Book Now →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="room-card">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+                     alt="Presidential hotel accommodation">
+                <div class="room-info">
+                    <h3>Presidential Suite</h3>
+                    <p>Premium luxury for an unforgettable stay.</p>
+                    <div class="room-bottom">
+                        <span><strong>$250</strong> / night</span>
+                        <a href="#contact">Book Now →</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+        <div class="section-heading">
+            <p class="subtitle">WHAT WE OFFER</p>
+            <h2>Hotel Facilities</h2>
+        </div>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <span>🛏️</span>
+                <h3>Luxury Rooms</h3>
+                <p>Relax in beautifully furnished rooms.</p>
+            </div>
+
+            <div class="service-card">
+                <span>🍽️</span>
+                <h3>Restaurant</h3>
+                <p>Enjoy delicious meals and fresh drinks.</p>
+            </div>
+
+            <div class="service-card">
+                <span>🏊</span>
+                <h3>Swimming Pool</h3>
+                <p>Refresh yourself in our relaxing pool.</p>
+            </div>
+
+            <div class="service-card">
+                <span>📶</span>
+                <h3>Free Wi-Fi</h3>
+                <p>Stay connected throughout your visit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div>
+            <p class="subtitle">GET IN TOUCH</p>
+            <h2>Plan Your Perfect Stay</h2>
+            <p>Contact us to ask questions or arrange your reservation.</p>
+            <p class="contact-detail">📍 Hargeisa, Somaliland</p>
+            <p class="contact-detail">✉️ info@grandpalace.com</p>
+            <p class="contact-detail">📞 +252 63 0000000</p>
+        </div>
+
+        <form class="contact-form" action="mailto:info@grandpalace.com"
+              method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="room" placeholder="Room Type">
+            <textarea name="message" rows="5"
+                      placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">GRAND<span>PALACE</span></a>
+        <p>Luxury, comfort and hospitality.</p>
+        <p>© 2026 Grand Palace Hotel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
